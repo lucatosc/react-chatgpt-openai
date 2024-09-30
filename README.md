@@ -4,7 +4,6 @@ This simple ReactJS project that I created is an AI Chatbot that uses apiKey fro
 <img src="./Screenshot.png"/>
 ## Installation
 ```sh
-git clone https://github.com/fitri-hy/react-chatgpt-openai.git
 cd react-chatgpt-openai
 npm install
 
@@ -19,7 +18,6 @@ Go to the `src` folder and copy the `components` folder and its contents to your
 **Impport components**
 
 ```sh
-import HyTechAi from './components/HyTechAI';
 ```
 **Call Component**
 
@@ -28,7 +26,6 @@ import HyTechAi from './components/HyTechAI';
 ```
 **Code Example (App.js)**
 ```
-import HyTechAi from './components/HyTechAI';
 import './App.css';
 
 function App() {
@@ -57,16 +54,7 @@ export default App;
 ## Example Full Customization
 
 ```sh
-<HyTechAi 
-    apiKey="your apiKey"
-    aiModel="gpt-3.5-turbo"
-    aiPrompt="Kamu adalah Hytech-AI yang dikembangkan oleh Hy-Tech Group"
-    aiName="Hytech-AI"
-    aiMessage="Hello, I'm Hytech-AI, Ask me anything!"
-    senderName="You"
-    typingLoad="Hytech-AI is typing..."
-    buttonText="Ask"
-/>
+
 ```
 ## Change Appearance
 You can change/customize the appearance in the `style.css` file
@@ -77,5 +65,4 @@ I didn't encrypt this repository for you to develop in it. If there are problems
 Hope it is useful,
 Warm greetings from me.
 
-Official Site: <a href="https://hy-tech.my.id/">VISIT</a>
 
